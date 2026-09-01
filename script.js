@@ -56,16 +56,16 @@ if (contactForm) {
 
     contactForm.addEventListener("submit", function (event) {
 
-        // Prevent actual form submission
+        // Prevent page refresh
         event.preventDefault();
 
 
-        // Show success message
+        // Show simple confirmation message
 
         if (formMessage) {
 
             formMessage.textContent =
-                "Thank you! Your message has been received.";
+                "Thank you! We appreciate your message.";
 
         }
 
